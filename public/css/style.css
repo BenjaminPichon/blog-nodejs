@@ -1,0 +1,27 @@
+.Titre {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+}
+
+.postes {
+  margin-left: 26%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.poste {
+  width: 18rem;
+  margin-right: 2%;
+}
+
+.titre-post {
+  font-weight: bold;
+}
+
+.poste:hover {
+  -webkit-box-shadow: -0.5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -0.5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -0.5px 5px 20px 0px rgba(0, 0, 0, 0.75);
+}
